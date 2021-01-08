@@ -27,7 +27,7 @@ We have used classic Neural Networks(CNN) to perform image classification. Using
 6. Evaluate the model on Test set of images
 
 ### Insight
-### Comparison of accuracy of different activation functions
+### Comparison of accuracy 
 
 ![train images WOA](https://user-images.githubusercontent.com/72271559/103927384-1957bc80-513c-11eb-9de2-367fb82c8ca2.PNG)
  
