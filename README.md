@@ -3,7 +3,6 @@
 ### Contributed by: 
 ##### 1. Ahsan Ijaz
                 
-## Image Classification using CNN, Keras and Tensorflow in Python
 ## MODEL Used with and with out Data Augmentation 
 ### 1. VGG16
 ### 2. InceptionV3
