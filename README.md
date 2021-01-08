@@ -1,29 +1,28 @@
 # CV_Assignment3
-# IE 7615: NeuralNetworks and Deep Learning- Final Project 
+# Image Classification Using CNN
 ### Contributed by: 
 ##### 1. Ahsan Ijaz
                 
 ## Image Classification using CNN, Keras and Tensorflow in Python
+## MODEL Used with and with out Data Augmentation 
+### 1. VGG16
+### 2. InceptionV3
 
-### This project is being done as a competition by many students and the best accuracy achieved is 70%. We were able to achieve 63% accuracy for 101 classes. This falls in the top 5 for the competition. For 10 classes we were able to achieve an accuracy of 95% 
 
-## Data
-The dataset is obtained from an opensource platform. It is available on CalTech website as CalTech 101 Image classification dataset.
-It can be accessed from the link - http://www.vision.caltech.edu/Image_Datasets/Caltech101
 
 ## Analysis Performed
 
 ### Objective 
-Image Classification using CNN in Keras and Tensorflow for CalTech 101 dataset.
+Image Classification using CNN in Keras and Tensorflow for Natural Scenes dataset having 6 Classes.
 
 
 ### Approach
 We have used classic Neural Networks(CNN) to perform image classification. Using Keras and TensorFlow in Python, different maxpooling and concolutional layers were added to the neural network. The labels were pre-defined as the class names and the model was trained on this neural network.
 
 ### Steps
-1. Read the images
+1. Read the images from google drive directory
 2. Pre-process and rescale the images
-3. Use different types of activation functions like tanh and Relu
+3. Use Softmax activation function
 4. Apply the Convolutional Neural Networks in Keras and TensorFlow
 5. Train the model on training dataset
 6. Evaluate the model on Test set of images
@@ -55,6 +54,4 @@ We have used classic Neural Networks(CNN) to perform image classification. Using
 ![vgg16summary](https://user-images.githubusercontent.com/72271559/103927906-e235db00-513c-11eb-864a-d18be9c2349d.PNG)
 
 ### Conclusion
-1. Relu performs better for image classification as compared to tanh activation function
-2. The convolutional network gives an accuracy of 95% for the 10 classes with maximum number of images 
-3. While training the images using CNN the number of training samples in important. For example, if there are less samples to train on then the model won't perform accurately.
+
