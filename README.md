@@ -3,9 +3,9 @@
 ### Contributed by: 
 ##### 1. Ahsan Ijaz
                 
-## MODEL Used with and with out Data Augmentation 
-### 1. VGG16
-### 2. InceptionV3
+#### MODEL Used with and with out Data Augmentation 
+#### 1. VGG16
+#### 2. InceptionV3
 
 
 
